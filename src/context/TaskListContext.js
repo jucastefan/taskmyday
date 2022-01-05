@@ -20,7 +20,7 @@ const TaskListContextProvider = (props) => {
   }
 
   const clearList = () => {
-      setTasks([])
+    setTasks([])
   }
 
   const findItem = (id) => {

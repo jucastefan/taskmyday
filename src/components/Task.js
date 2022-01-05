@@ -1,5 +1,4 @@
-import React from 'react'
-import { useContext } from 'react/cjs/react.development'
+import React,{useContext} from 'react'
 import { TaskListContext } from '../context/TaskListContext'
 
 const Task = ({ task }) => {
